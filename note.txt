@@ -1,0 +1,40 @@
+Express js backend with packages
+    - yarn add express
+    - yarn add cookie-parser
+    - yarn add cors
+    - yarn add express-rate-limit
+    - yarn add helmet
+    - yarn add hpp
+    - yarn add jsonwebtoken
+    - yarn add mongoose
+    - yarn add nodemailer
+    - yarn add nodemon
+
+
+1. Dependencies (Production)
+Package Name        - Description
+express             - Web framework for building the application.
+dotenv              - Loads environment variables from a .env file.
+mongoose            - MongoDB object modeling (if using MongoDB).
+pg / mysql2         - PostgreSQL / MySQL client (if using SQL databases).
+bcrypt	            - For hashing passwords.
+jsonwebtoken        - To generate and verify JSON Web Tokens (JWT).
+cors                - Middleware to handle Cross-Origin Resource Sharing.
+body-parser         - Parses incoming request bodies (though Express includes this).
+cookie-parser       - Parses cookies for handling sessions or JWTs.
+express-validator	- Middleware for validating and sanitizing input.
+multer              - Middleware for handling multipart/form-data (file uploads).
+helmet              - Helps secure your Express app by setting HTTP headers.
+compression         - Middleware for Gzip compression of responses.
+morgan              - HTTP request logger.
+
+
+2. DevDependencies (Development)
+Package             - Description
+nodemon             - Automatically restarts the server on file changes.
+eslint              - Linter for maintaining code quality and style.
+prettier            - Code formatter for consistent code style.
+jest                - Testing framework for unit and integration tests.
+supertest           - For testing HTTP endpoints.
+cross-env           - Allows setting environment variables across platforms.
+dotenv-cli          - CLI for running scripts with .env variables.
